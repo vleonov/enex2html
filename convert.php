@@ -87,7 +87,7 @@ function tag($name, $content, array $attributes = [])
  * @param array $attributes Key-value array of attributes
  * @return string
  */
-function shortTag($name, $attributes)
+function shortTag($name, array $attributes = [])
 {
     $attributesPlain = [];
     foreach ($attributes as $key => $value) {
