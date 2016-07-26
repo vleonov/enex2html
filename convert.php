@@ -101,6 +101,6 @@ function shortTag($name, array $attributes = [])
     return sprintf(
         '<%s %s/>',
         $name,
-        $attributesPlain
+        implode(' ', $attributesPlain)
     );
 }
