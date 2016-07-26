@@ -1,0 +1,12 @@
+{
+    "name": "vleonov/enex2html",
+    "description": "Convert Evernote export file to HTML",
+    "license": "proprietary",
+    "config": {
+        "secure-http": false
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-simplexml": "*"
+    }
+}
